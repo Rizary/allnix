@@ -1,0 +1,69 @@
+# Haskell Specific
+.stack-work/
+error.log
+access.log
+dist/
+dist-ghcjs/
+dist-newstyle/
+frontend-result/
+
+
+# Javascript
+node_modules/
+jspm_packages/
+
+#visual studio code
+.vscode/*
+!.vscode/settings.json
+
+#nix gitignore
+result
+result-*
+*.sqlite3
+
+#postgresql
+# Global excludes across all subdirectories
+*.o
+*.obj
+*.bc
+*.so
+*.so.[0-9]
+*.so.[0-9].[0-9]
+*.so.[0-9].[0-9][0-9]
+*.sl
+*.sl.[0-9]
+*.sl.[0-9].[0-9]
+*.sl.[0-9].[0-9][0-9]
+*.dylib
+*.dll
+*.exp
+*.a
+*.mo
+*.pot
+objfiles.txt
+.deps/
+*.gcno
+*.gcda
+*.gcov
+*.gcov.out
+lcov*.info
+coverage/
+coverage-html-stamp
+*.vcproj
+*.vcxproj
+win32ver.rc
+*.exe
+lib*dll.def
+lib*.pc
+
+# Local excludes in root directory
+/GNUmakefile
+/config.cache
+/config.log
+/config.status
+/pgsql.sln
+/pgsql.sln.cache
+/Debug/
+/Release/
+/tmp_install/
+
